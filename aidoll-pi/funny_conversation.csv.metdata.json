@@ -1,0 +1,29 @@
+{
+  "metadataAttributes": {
+    "dataType": "conversationExample",
+    "creationDate": "2025-04-20"
+  },
+  "documentStructureConfiguration": {
+    "type": "RECORD_BASED_STRUCTURE_METADATA",
+    "recordBasedStructureMetadata": {
+      "contentFields": [
+        {
+          "fieldName": "response"
+        },
+        {
+          "fieldName": "personality_traits"
+        }
+      ],
+      "metadataFieldsSpecification": {
+        "fieldsToInclude": [
+          {
+            "fieldName": "context"
+          },
+          {
+            "fieldName": "input"
+          }
+        ]
+      }
+    }
+  }
+}
